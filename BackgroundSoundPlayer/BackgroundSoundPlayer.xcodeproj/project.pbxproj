@@ -13,6 +13,8 @@
 		DB76E4C9248A331900DC241B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB76E4C8248A331900DC241B /* Assets.xcassets */; };
 		DB76E4CC248A331900DC241B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB76E4CB248A331900DC241B /* Preview Assets.xcassets */; };
 		DB76E4CF248A331900DC241B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB76E4CD248A331900DC241B /* LaunchScreen.storyboard */; };
+		DB76E4D8248A334500DC241B /* EmptySound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB76E4D7248A334500DC241B /* EmptySound.mp3 */; };
+		DB76E4DA248A334F00DC241B /* ShortWhiteNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB76E4D9248A334F00DC241B /* ShortWhiteNoise.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DB76E4CB248A331900DC241B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB76E4CE248A331900DC241B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB76E4D0248A331900DC241B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB76E4D7248A334500DC241B /* EmptySound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EmptySound.mp3; sourceTree = "<group>"; };
+		DB76E4D9248A334F00DC241B /* ShortWhiteNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShortWhiteNoise.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		DB76E4C1248A331800DC241B /* BackgroundSoundPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				DB76E4D6248A333100DC241B /* Sounds */,
 				DB76E4C2248A331800DC241B /* AppDelegate.swift */,
 				DB76E4C4248A331800DC241B /* SceneDelegate.swift */,
 				DB76E4C6248A331800DC241B /* ContentView.swift */,
@@ -73,6 +78,15 @@
 				DB76E4CB248A331900DC241B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB76E4D6248A333100DC241B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DB76E4D9248A334F00DC241B /* ShortWhiteNoise.mp3 */,
+				DB76E4D7248A334500DC241B /* EmptySound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB76E4D8248A334500DC241B /* EmptySound.mp3 in Resources */,
 				DB76E4CF248A331900DC241B /* LaunchScreen.storyboard in Resources */,
 				DB76E4CC248A331900DC241B /* Preview Assets.xcassets in Resources */,
+				DB76E4DA248A334F00DC241B /* ShortWhiteNoise.mp3 in Resources */,
 				DB76E4C9248A331900DC241B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
